@@ -45,7 +45,9 @@ void loop() {
 //    digitalWrite(buzzPin, LOW);
     noTone(buzzPin);
   }
-  
+
+  //200ms停止して次のセンサーの値を読み込む
+  //値を増やすと次の読み込みまでに間隔が開く
   delay(200);
 }
 
